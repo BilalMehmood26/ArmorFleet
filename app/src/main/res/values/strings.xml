@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ARMOR Fleet</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_sub_heading">Please enter the sign in details to proceed.</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sso">SSO</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+    <string name="sign_up_here">Sign Up Here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_sub_heading">Enter your detail to create your account.</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="continue_text">Continue</string>
+    <string name="sign_in_here">Sign In Here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="lorum_ipsum_text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia a et dolore magnam aliquam quaerat voluptatem.</string>
+    <string name="forgot_password_text">Forgot Password</string>
+    <string name="proceed">Proceed</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="reset_password">Reset Password</string>
+</resources>

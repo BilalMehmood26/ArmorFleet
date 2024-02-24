@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_graph"
+    app:startDestination="@id/signinFragment">
+    <fragment
+        android:id="@+id/signinFragment"
+        android:name="com.buzztech.armorfleet.ui.auth.signin.SigninFragment"
+        android:label="fragment_signin"
+        tools:layout="@layout/fragment_signin" >
+        <action
+            android:id="@+id/action_signinFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_signinFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.buzztech.armorfleet.ui.auth.signup.SignupFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signupFragment_to_termsandConditionFragment"
+            app:destination="@id/termsandConditionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.buzztech.armorfleet.ui.auth.forgotpassword.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/termsandConditionFragment"
+        android:name="com.buzztech.armorfleet.ui.auth.signup.TermsandConditionFragment"
+        android:label="fragment_termsand_condition"
+        tools:layout="@layout/fragment_termsand_condition" >
+        <action
+            android:id="@+id/action_termsandConditionFragment_to_verifyOTPFragment"
+            app:destination="@id/verifyOTPFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verifyOTPFragment"
+        android:name="com.buzztech.armorfleet.ui.auth.otp.VerifyOTPFragment"
+        android:label="fragment_verify_o_t"
+        tools:layout="@layout/fragment_verify_o_t" />
+</navigation>
